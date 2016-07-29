@@ -110,6 +110,7 @@ class Skiplagged {
                 curl_setopt($curl_session, CURLOPT_URL, $endpoint);
 
                 if ($is_skiplagged_api) {
+                    sleep(1);
                     curl_setopt($curl_session, CURLOPT_POSTFIELDS, $data);
                     return json_decode(curl_exec($curl_session), true);
                 } else {
