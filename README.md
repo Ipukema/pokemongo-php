@@ -1,3 +1,5 @@
+UPDATE: THIS DOES NOT WORK
+
 # pokemongo-php
 A PHP module that makes it easy to communicate with the Pokemon Go API.
 
